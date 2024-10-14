@@ -51,7 +51,7 @@ Feel free to fork this repository and submit pull requests. Contributions are al
 If you have any questions or feedback, feel free to reach out!
 
 - **Email**: vardanyankaren924@gmail.com 
-- **GitHub**: [your-github-profile](https://github.com/kv-yan)
+- **GitHub**: [KarenVardanyna](https://github.com/kv-yan)
 
 
 Feel free to customize this README to better suit your project! You can add more sections like **Changelog** or **Known Issues** if needed.
