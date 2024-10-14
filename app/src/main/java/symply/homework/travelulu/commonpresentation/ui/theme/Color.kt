@@ -21,3 +21,12 @@ val subtitleColor = Color(0xffBCA4FF)
 val optionItemBackgroundColor = Color(0xffE4DAFF)
 val optionItemStrokeColor = buttonColor
 
+val userFeedbackImageBackgroundColor = Color(0xffCDCCFF)
+
+val settingItemOpenedColor = Color(0xff5F2EEA)
+val settingItemClosedColor = Color(0xff2A00A2)
+
+val settingTitleColor = Color(0xffF3EFFF)
+val settingActionBarColor = Color(0xffFCFCFC)
+
+

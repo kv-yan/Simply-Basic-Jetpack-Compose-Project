@@ -11,8 +11,8 @@ import symply.homework.travelulu.home.presentation.itemlist.BenefitsCardList
 fun BenefitSection(modifier: Modifier = Modifier) {
 
     val benefitUiList = listOf(
-//        BenefitUi(icon = painterResource(id = R.drawable.benefit_time), title = "Plan Trip Dates"),
-//        BenefitUi(icon = painterResource(id = R.drawable.benefit_flights), title = "Pay For Your Flights"),
+        BenefitUi(icon = painterResource(id = R.drawable.benefit_time), title = "Plan Trip Dates"),
+        BenefitUi(icon = painterResource(id = R.drawable.benefit_flights), title = "Pay For Your Flights"),
         BenefitUi(icon = painterResource(id = R.drawable.benefit_finance), title = "Plan Your Finances")
     )
 

@@ -14,8 +14,7 @@ import symply.homework.travelulu.home.presentation.items.ToolSectionItem
 @Composable
 fun BenefitsCardList(modifier: Modifier = Modifier, benefitUiList: List<BenefitUi>) {
     ToolSectionItem(
-        modifier = modifier
-            .padding(bottom = 35.dp),
+        modifier = modifier,
         title = "Use our assortment of travel plan tools"
     ) {
         LazyColumn(Modifier.heightIn(0.dp, 4500.dp)) {
