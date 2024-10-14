@@ -15,7 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import symply.homework.travelulu.commonpresentation.ui.theme.buttonColor
+import symply.homework.travelulu.commonpresentation.ui.theme.blueButtonColor
 import symply.homework.travelulu.commonpresentation.ui.theme.buttonTextStyle
 
 @Preview
@@ -33,17 +33,17 @@ private fun ButtonPrev() {
 }
 
 @Composable
-fun SolidButton(modifier: Modifier = Modifier) {
+fun SolidButton(modifier: Modifier = Modifier ,text: String = "BEGIN PLANS", textColor: Color = Color.White, containerColor: Color = blueButtonColor) {
     Button(
         modifier = modifier,
         onClick = {},
-        colors = ButtonDefaults.buttonColors(containerColor = buttonColor)
+        colors = ButtonDefaults.buttonColors(containerColor = containerColor)
     ) {
         Text(
-            text = "BEGIN PLANS",
+            text = text,
             modifier = Modifier.padding(8.dp),
             style = buttonTextStyle,
-            color = Color.White
+            color = textColor
         )
     }
 
@@ -53,8 +53,8 @@ fun SolidButton(modifier: Modifier = Modifier) {
 fun OutLineButton(
     modifier: Modifier = Modifier,
     text: String = "REVIEW PLANS",
-    textColor: Color = buttonColor,
-    strokeColor: Color = buttonColor
+    textColor: Color = blueButtonColor,
+    strokeColor: Color = blueButtonColor
 ) {
     OutlinedButton(
         modifier = modifier,

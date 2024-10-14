@@ -16,7 +16,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import symply.homework.travelulu.commonpresentation.ui.theme.buttonColor
+import symply.homework.travelulu.commonpresentation.ui.theme.blueButtonColor
 import symply.homework.travelulu.commonpresentation.ui.theme.dividerColor
 import symply.homework.travelulu.commonpresentation.ui.theme.featureDetailsTextStyle
 import symply.homework.travelulu.commonpresentation.ui.theme.featureTitleTextStyle
@@ -57,7 +57,7 @@ fun BenefitCardItem(modifier: Modifier = Modifier, benefitUi: BenefitUi) {
             OutLineButton(
                 modifier = Modifier.fillMaxWidth(0.7f),
                 text = "LEARN MORE",
-                textColor = buttonColor,
+                textColor = blueButtonColor,
                 strokeColor = dividerColor
             )
 

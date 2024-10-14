@@ -1,5 +1,6 @@
 package symply.homework.travelulu.commonpresentation.ui.theme
 
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
@@ -100,14 +101,14 @@ val userFeedbackTitleTextStyle = TextStyle(
     letterSpacing = 0.75.sp,
     fontSize = 18.sp,
     lineHeight = 27.sp,
-    color = buttonColor,
+    color = blueButtonColor,
 )
 val userFeedbackVisitedTextStyle = TextStyle(
     fontFamily = FontFamily(Font(R.font.poppins_normal)),
     letterSpacing = 0.75.sp,
     fontSize = 18.sp,
     lineHeight = 27.sp,
-    color = buttonColor,
+    color = blueButtonColor,
 )
 
 
@@ -128,7 +129,7 @@ val actionBarTitleTextStyle = TextStyle(
     fontSize = 34.sp,
     lineHeight = 55.sp,
     fontWeight = FontWeight.W700,
-    color = buttonColor,
+    color = blueButtonColor,
 )
 
 val contactTitleTextStyle = TextStyle(
@@ -163,7 +164,7 @@ val homeActionBarTextStyle = TextStyle(
     fontSize = 34.sp,
     fontWeight = FontWeight.W700,
     lineHeight = 27.sp,
-    color = buttonColor,
+    color = blueButtonColor,
 )
 
 val settingsActionBarTextStyle = TextStyle(
@@ -173,3 +174,30 @@ val settingsActionBarTextStyle = TextStyle(
     lineHeight = 27.sp,
     color = settingActionBarColor,
 )
+
+val findTitleTextStyle = TextStyle(
+    fontFamily = FontFamily(Font(R.font.poppins_semibold)),
+    letterSpacing = 0.99.sp,
+    fontSize = 24.sp,
+    fontWeight = FontWeight.W700,
+    lineHeight = 32.sp,
+)
+
+val searchFieldLabelTextStyle = TextStyle(
+    fontFamily = FontFamily(Font(R.font.poppins_normal)),
+    letterSpacing = 0.75.sp,
+    fontSize = 16.sp,
+    fontWeight = FontWeight.W400,
+    lineHeight = 28.sp,
+    color = Color.White,
+)
+
+val foundedHotelTitleTextStyle = TextStyle(
+    fontFamily = FontFamily(Font(R.font.poppins_semibold)),
+    letterSpacing = 0.99.sp,
+    fontSize = 24.sp,
+    color = blueButtonColor,
+    fontWeight = FontWeight.W600,
+    lineHeight = 38.sp,
+)
+

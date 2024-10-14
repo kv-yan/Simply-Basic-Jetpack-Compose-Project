@@ -12,7 +12,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import symply.homework.travelulu.Screen
-import symply.homework.travelulu.commonpresentation.ui.theme.buttonColor
+import symply.homework.travelulu.commonpresentation.ui.theme.blueButtonColor
 import symply.homework.travelulu.commonpresentation.ui.theme.dividerColor
 
 
@@ -30,7 +30,7 @@ fun BottomNavigationBar(
             items.forEach { screen ->
                 val isSelected = currentDestination?.route == screen.route
                 BottomNavigationItem(
-                    selectedContentColor = buttonColor,
+                    selectedContentColor = blueButtonColor,
                     unselectedContentColor = dividerColor,
                     selected = isSelected,
                     onClick = {

@@ -7,7 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
-import symply.homework.travelulu.commonpresentation.ui.theme.buttonColor
+import symply.homework.travelulu.commonpresentation.ui.theme.blueButtonColor
 import symply.homework.travelulu.commonpresentation.ui.theme.dividerColor
 
 @Composable
@@ -17,7 +17,7 @@ fun AnimatedIcon(isSelected: Boolean, icon: ImageVector) {
             imageVector = icon,
             contentDescription = null,
             modifier = Modifier.size(30.dp),
-            tint = if (isSelected) buttonColor else dividerColor
+            tint = if (isSelected) blueButtonColor else dividerColor
         )
     }
     if (!isSelected) {
@@ -25,7 +25,7 @@ fun AnimatedIcon(isSelected: Boolean, icon: ImageVector) {
             imageVector = icon,
             contentDescription = null,
             modifier = Modifier.size(24.dp),
-            tint = if (isSelected) buttonColor else dividerColor
+            tint = dividerColor
 
         )
     }

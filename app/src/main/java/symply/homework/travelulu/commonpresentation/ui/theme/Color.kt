@@ -11,7 +11,8 @@ val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
 val titleColor = Color(0xff4E4B66)
-val buttonColor = Color(0xff5F2EEA)
+val blueButtonColor = Color(0xff5F2EEA)
+val redButtonColor = Color(0xffED2E7E)
 val statisticIconColor = Color(0xffBCA4FF)
 val statisticDetailsColor = Color(0xff6E7191)
 val statisticNumberColor = Color(0xff2A00A2)
@@ -19,7 +20,7 @@ val dividerColor = Color(0xffD9DBE9)
 val subtitleColor = Color(0xffBCA4FF)
 
 val optionItemBackgroundColor = Color(0xffE4DAFF)
-val optionItemStrokeColor = buttonColor
+val optionItemStrokeColor = blueButtonColor
 
 val userFeedbackImageBackgroundColor = Color(0xffCDCCFF)
 

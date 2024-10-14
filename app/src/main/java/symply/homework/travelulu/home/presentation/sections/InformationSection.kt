@@ -53,10 +53,8 @@ fun InformationSection(modifier: Modifier = Modifier) {
         modifier.heightIn(min = 0.dp, max = 10000.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        ContactUsBanner(modifier)
-
+        ContactUsBanner(Modifier.fillMaxWidth())
         Spacer(modifier = Modifier.height(54.dp))
-
         ContactInfo()
     }
 }
@@ -64,7 +62,7 @@ fun InformationSection(modifier: Modifier = Modifier) {
 @Composable
 private fun ContactUsBanner(modifier: Modifier = Modifier) {
     Surface(
-        modifier = modifier.padding(16.dp), shape = RoundedCornerShape(25.dp)
+        modifier = modifier, shape = RoundedCornerShape(25.dp)
     ) {
         Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
             Image(
@@ -114,7 +112,7 @@ fun ContactInfo() {
             .fillMaxWidth()
     )
 
-    Spacer(modifier = Modifier.height(70.dp))
+    Spacer(modifier = Modifier.height(45.dp))
     Text(text = "Contact", style = contactTitleTextStyle)
 
     Spacer(modifier = Modifier.height(23.dp))
@@ -132,3 +130,4 @@ fun ContactInfo() {
 
     Spacer(modifier = Modifier.height(37.dp))
 }
+
